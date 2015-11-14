@@ -178,10 +178,6 @@ header {
 
 .logo {
     flex: 1 0 auto;
-	/*
-    max-width: 40%;
-    float: left;
-    */
     background-size: cover;
 }
 
@@ -233,12 +229,6 @@ header ul > li:last-of-type {
     border-bottom: 5px solid #5166ca;
 }
 
-/*
-ul > li:hover {
-   background: #5166ca;
-}
-*/
-
 header ul > li:hover a {
     color: #5166ca;
     transition: all 0.3s;
@@ -253,12 +243,6 @@ header ul > li:hover a {
     position: relative;
     margin-top: 97px; /* 113-6px */
 }
-
-/*
-.slider img {
-    max-width: 100%;
-}
-*/
 
 .slider p {
     color: #fff;
@@ -363,15 +347,6 @@ footer {
     color: #fff;
     background: #2a3b89;
     line-height: 100%;
-   /* 
-    width: 100%;
-    padding: 25px 0px;
-    position: absolute;
-    bottom: 0;
-    color: #fff;
-    background: #2a3b89;
-    line-height: 100%;
-    */
 }
 
 footer p {
@@ -390,33 +365,11 @@ footer span {
 }
 
 @media screen and (min-width: 600px) and (max-width: 844px) {
-    /*header {
-        display: -webkit-flex;
-        display: -moz-flex; 
-        display: flex;
-    }
-    
-    .logo {
-        max-height: 200px;
-        max-width: 300px;
-    }
-    
-    .slider {
-	   margin-top: 113px;
-    }
-    
-    nav {
-        display: none;
-    }*/
-    
+
     li {
         font-size: 1em;
     }
-    
-    .slider p {
-       /* font-size: 2em;*/
-    }
-    
+
     .btn {
         padding: 20px 30vw;
         font-size: 1.5rem;
@@ -447,11 +400,7 @@ footer span {
         max-width: 250px;
         max-height: 250px;
     }
-    
-    /*li {
-        font-size: 1em;
-    }*/
-    
+
     .articles article .content{
         display: block;
     }
@@ -496,7 +445,6 @@ footer span {
         margin: 20px;
         width: 250px;
         height: 250px;
-        /*font-size: 0.8em;*/
     }
     
     .articles article p:first-of-type {
