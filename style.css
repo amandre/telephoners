@@ -382,19 +382,19 @@ h2 {
 
 .bottom p {
     margin-right: 10%;
-    font-size: 1.3em;
     float: right;
-    font-weight: bold;
     display: flex;
     align-items: center;
 }
 
 .bottom a, .bottom a:link, .bottom a:visited {
     color: #fff;
+    margin: 0 5px;
 }
 
 .bottom a:first-of-type {
-    margin-right: 15px;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 .bottom span {
@@ -413,6 +413,14 @@ h2 {
     .btn {
         padding: 20px 30vw;
         font-size: 1.5rem;
+    }
+    
+    .bottom a:first-of-type {
+        margin-right: 30px;
+    }
+    
+    .bottom a:last-of-type {
+	   margin-left: 30px;
     }
 }
 
@@ -437,6 +445,8 @@ h2 {
         margin: 20px;
         width: 33%;
         height: auto;
+        min-height: 200px;
+        max-height: 250px;
     }
     
     .articles article .content{
@@ -477,6 +487,14 @@ h2 {
     .article_footer a {
         padding: 2px 30px;
     }
+    
+    .bottom a:first-of-type {
+        margin-right: 30px;
+    }
+    
+    .bottom a:last-of-type {
+	   margin-left: 30px;
+    }
 }
 
 @media screen and (min-width: 991px) {
@@ -500,8 +518,10 @@ h2 {
     
     .articles article {
         margin: 20px;
-        width: 250px;
-        height: 250px;
+        width: 33%;
+        height: auto;
+        min-height: 200px;
+        max-height: 350px;
     }
     
     .articles article > p:first-of-type {
@@ -510,6 +530,7 @@ h2 {
    
     .articles article .content{
         display: block;
+        padding: 30px;
     }
     
     h2 {
@@ -528,6 +549,14 @@ h2 {
     
     .mobile {
         display: none;
+    }
+
+    .bottom a:first-of-type {
+        margin-right: 30px;
+    }
+    
+    .bottom a:last-of-type {
+	   margin-left: 30px;
     }
 }
 
