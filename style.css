@@ -172,13 +172,11 @@ input[type=checkbox] {
 }
 
 .mob_logo {
-    background-size: cover;
     width: 37vw;
 }
 
 .logo {
     flex: 1 0 auto;
-    background-size: cover;
 }
 
 .desktop ol > li{
@@ -378,6 +376,9 @@ h2 {
     color: #fff;
     background: #2a3b89;
     line-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .bottom p {
@@ -385,14 +386,24 @@ h2 {
     font-size: 1.3em;
     float: right;
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
 .bottom a, .bottom a:link, .bottom a:visited {
     color: #fff;
 }
 
+.bottom a:first-of-type {
+    margin-right: 15px;
+}
+
 .bottom span {
     margin-left: 5%;
+}
+
+.bottom img {
+    max-width: 30px;
 }
 
 @media screen and (min-width: 600px) and (max-width: 844px) {  
