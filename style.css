@@ -57,6 +57,10 @@ img
 	border: 0px;
 }
 
+nav {
+    box-shadow: 10px 2px 8px #000;
+}
+
 .mobile {
     display: -webkit-flex;
     display: -moz-flex; 
@@ -271,25 +275,20 @@ ol li:hover ul{
 
 .articles article {
     margin: 10% auto;
-    padding: 10px;
+    padding: 20px;
     overflow: hidden;
     -webkit-box-shadow: 0px 0px 20px -7px rgba(0,0,0,0.74);
     -moz-box-shadow: 0px 0px 20px -7px rgba(0,0,0,0.74);
     box-shadow: 0px 0px 20px -7px rgba(0,0,0,0.74);
     font-size: 0.9em;
     position: relative;
-    width: 250px;
-    height: 85px;
-}
-
-.articles article > p:first-of-type {
-    font-size: 0.6em;
-    text-transform: uppercase;
-    margin: 0px 0px 10px 0px;
+    width: 90%;
+    height: 100px;
 }
 
 .articles article .content{
     display: none;
+    padding: 10px;
 }
 
 .articles article strong {
@@ -297,10 +296,37 @@ ol li:hover ul{
     right: 20px;
     bottom: 20px;
 }
- 
+
+.article_header {
+    color: #fff;
+    background: #2a3b89;
+    padding: 10px;
+    margin: -20px -20px 0;
+}
+
+.article_header > p {
+	font-size: 0.7em;
+    text-transform: uppercase;
+    margin: 0px 0px 10px 0px;
+}
+
+.article_footer {
+    position:absolute;
+    bottom: 15px;
+    right: 30px;
+}
+
+.article_footer a {
+    padding: 7px 30px;
+    background: #2a3b89; /* #5166ca; */
+    text-align: center;
+    color: #fff;
+}
+
 .articles article img {
     display: block;
-    max-width: 80%;
+    max-width: 100%;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -346,7 +372,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-footer {
+.bottom {
     position: relative;
     padding: 25px 0px;
     color: #fff;
@@ -354,18 +380,18 @@ footer {
     line-height: 100%;
 }
 
-footer p {
+.bottom p {
     margin-right: 10%;
     font-size: 1.3em;
     float: right;
     font-weight: bold;
 }
 
-footer a, footer a:link, footer a:visited {
+.bottom a, .bottom a:link, .bottom a:visited {
     color: #fff;
 }
 
-footer span {
+.bottom span {
     margin-left: 5%;
 }
 
@@ -399,10 +425,8 @@ footer span {
     
     .articles article {
         margin: 20px;
-        width: 25vw;
-        height: 25vw;
-        max-width: 250px;
-        max-height: 250px;
+        width: 33%;
+        height: auto;
     }
     
     .articles article .content{
@@ -435,6 +459,14 @@ footer span {
     .desktop ol > li {
 	   align-self: center;
     }
+    
+    .article_footer {
+        bottom: 7px;
+    }
+    
+    .article_footer a {
+        padding: 2px 30px;
+    }
 }
 
 @media screen and (min-width: 991px) {
@@ -462,7 +494,7 @@ footer span {
         height: 250px;
     }
     
-    .articles article p:first-of-type {
+    .articles article > p:first-of-type {
         font-size: 0.8em;
     }
    
