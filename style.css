@@ -249,7 +249,8 @@ ol li:hover ul{
     background-size: cover;
     background-repeat: no-repeat;
     max-width:100%;
-    min-height:45vw;
+    height:45vw;
+    max-height: 800px;
     position: relative;
     margin-top: 97px;
 }
