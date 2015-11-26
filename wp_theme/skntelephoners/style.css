@@ -317,6 +317,20 @@ h2 {
     margin-bottom: -82px;
 }
 
+.site-main {
+   margin-top: 128px;
+   border-right: 40px double #5166ca;
+   border-left: 40px double #5166ca;
+   padding: 20px;
+}
+
+.site-main h1 {
+   font-family: Oswald;
+   color: #5166ca;
+   font-size: 2em;
+   text-align: center;
+}
+
 .bottom {
     padding: 25px 0px;
     color: #fff;
