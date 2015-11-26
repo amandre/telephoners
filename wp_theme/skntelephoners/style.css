@@ -321,13 +321,50 @@ h2 {
    margin-top: 128px;
    border-right: 40px double #5166ca;
    border-left: 40px double #5166ca;
-   padding: 20px;
+   padding-top: 20px;
 }
 
 .site-main h1 {
    font-family: Oswald;
    color: #5166ca;
    font-size: 2em;
+   text-align: center;
+}
+
+.site-main > article {
+   margin: 10px 50px;
+}
+
+.comments-area {
+   background: #5166ca;
+   padding: 10px;
+   color: #fff;
+   margin-top: 30px;
+   padding: 10px 50px;
+}
+
+.comments-area h3 {
+   text-align: center;
+}
+
+.comments-area a:link, .comments-area a:visited {
+   color: white;
+}
+
+.comments-area a:hover {
+   font-weight: bold;
+}
+
+.comment-form-comment {
+   display: flex;
+   align-items: center;
+}
+
+.comment-form-comment > label {
+   margin: 10px;
+}
+
+.form-submit {
    text-align: center;
 }
 
@@ -592,4 +629,3 @@ h2 {
 	/* font-size: 1.1em; */
     }
 }
-
