@@ -102,10 +102,6 @@ input[type=checkbox] {
     display: none;
 }
 
-#toggle:checked ~ .mob_nav {
-    display: block;
-}
-
 #show_btn:checked ~ .cont {
     display: block;
 }
@@ -188,6 +184,29 @@ ul.nav-menu li > ul > li:hover a {
     color: #5166ca;
     transition: all 0.3s;
     font-weight: bold;
+}
+
+ul.mob {
+    position: absolute;
+    top: 97px;
+    left: 0px;
+    background: #5166ca;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+ul.mob > li {
+    float: none;
+    width: auto;
+}
+
+ul.mob > li > a {
+    padding: 5px;
+}
+
+ul.mob a:link, ul.mob a:visited {
+    color: #fff;
 }
 
 .slider {
@@ -490,10 +509,6 @@ h2 {
     .btn {
         padding: 20px 30vw;
         font-size: 1.5rem;
-    }
-    
-    .mobile {
-        display: none;
     }
     
     ul.nav-menu > li > a {
