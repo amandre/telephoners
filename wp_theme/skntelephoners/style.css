@@ -60,6 +60,7 @@ img
 .logo {
         max-height: 200px;
         max-width: 300px;
+	margin-left: 10px;
 }
 
 .show_nav {
