@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * The template for displaying all single posts and attachments
  *
@@ -34,9 +34,9 @@ get_header(); ?>
 			endwhile;
 		?>
 	</section>
-	<footer class="article_footer">
+	<!-- <footer class="article_footer">
 		<a href="<?php the_permalink(); ?>">WIĘCEJ</a>
-	</footer>
+	</footer> -->
 </article>
 
 
