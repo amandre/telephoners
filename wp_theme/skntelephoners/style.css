@@ -64,7 +64,7 @@ img {
 
 .toggle_nav {
     display: none;
-    position: absolute;
+    position: relative;
 }
 
 .toggle_nav, .toggle_nav:before, .toggle_nav:after {
