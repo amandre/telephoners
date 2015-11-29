@@ -257,12 +257,12 @@ ul.mob a:link, ul.mob a:visited {
     font-size: 0.9em;
     position: relative;
     width: 90%;
-    height: 100px;
+    /*height: 100px;*/
 }
 
 .featured-articles article .content{
-    display: none;
-    padding: 10px;
+    /*display: none;*/
+    padding: 20px;
 }
 
 .featured-articles article strong {
@@ -346,11 +346,26 @@ h2 {
     margin-bottom: -82px;
 }
 
+
 .wrapper > article {
-    margin-top: 128px;
+    margin-top: 158px;
     border-right: 40px double #2a3b89;
     border-left: 40px double #2a3b89;
     padding: 20px;
+}
+
+.wrapper > article > .article_header {
+    text-align: center;
+}
+
+.wrapper > article > .content {
+    margin: 20px;
+}
+
+.wrapper > article > .bottom {
+   position: absolute;
+   width: 100%;
+   bottom: 0;
 }
 
 .site-main {
