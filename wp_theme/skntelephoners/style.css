@@ -63,26 +63,27 @@ img {
 }
 
 .toggle_nav {
+    display: none;
     position: absolute;
 }
 
 .toggle_nav, .toggle_nav:before, .toggle_nav:after {
     height: 5px;
     background: #5166ca;
-    width: 30px;
+    width: 40px;
     -webkit-appearance: button;
     cursor: pointer;
 }
 
 .toggle_nav:before {
     position: absolute;
-    top: -8px;
+    top: -10px;
     content: "";
 }
 
 .toggle_nav:after {
     position: absolute;
-    top: 8px;
+    top: 10px;
     content: "";
 }
 
@@ -634,3 +635,4 @@ h2 {
 	/* font-size: 1.1em; */
     }
 }
+
