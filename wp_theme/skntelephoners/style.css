@@ -52,8 +52,7 @@ ul, li {
     list-style-type: none;
 }
 
-img
-{
+img {
 	border: 0px;
 }
 
@@ -63,43 +62,36 @@ img
 	margin-left: 10px;
 }
 
-.show_nav {
-    display: none;
+.toggle_nav {
     position: absolute;
-    top: 40px;
 }
 
-.show_nav, .show_nav:before, .show_nav:after {
-    height: 4px;
+.toggle_nav, .toggle_nav:before, .toggle_nav:after {
+    height: 5px;
     background: #5166ca;
     width: 30px;
     -webkit-appearance: button;
     cursor: pointer;
 }
 
-.show_nav:before {
+.toggle_nav:before {
     position: absolute;
     top: -8px;
     content: "";
 }
 
-.show_nav:after {
+.toggle_nav:after {
     position: absolute;
     top: 8px;
     content: "";
 }
 
-.show_nav:hover, .show_nav:hover:after, .show_nav:hover:before
-{
+.toggle_nav:hover, .toggle_nav:hover:after, .toggle_nav:hover:before {
     transform: rotateX(180deg);
     transition: transform 1s;
 }
 
 input[type=checkbox] {
-    display: none;
-}
-
-.test {
     display: none;
 }
 
@@ -177,19 +169,20 @@ ul.nav-menu > li > ul{
     /* margin-left: -5px; */
 }
 
-ul.nav-menu li > ul > li:last-of-type {
+ul.nav-menu > li > ul > li:last-of-type {
     border-bottom: 5px solid #5166ca;
 }
 
-ul.nav-menu li > ul > li:hover a {
+ul.nav-menu > li > ul > li:hover a {
     color: #5166ca;
     transition: all 0.3s;
     font-weight: bold;
 }
 
 ul.mob {
+    display: none;
     position: absolute;
-    top: 97px;
+    top: 128px;
     left: 0px;
     background: #5166ca;
     width: 100%;
@@ -203,7 +196,22 @@ ul.mob > li {
 }
 
 ul.mob > li > a {
+    font-weight: normal;
+    padding: 0px;
+}
+
+ul.mob > li > a:hover {
+    font-weight: 600;
+}
+
+ul.mob > li > ul {
+    position: static;
+    background: #6275cf;
     padding: 5px;
+}
+
+ul.mob > li > ul > li:hover a {
+    color: #fff;
 }
 
 ul.mob a:link, ul.mob a:visited {
@@ -341,7 +349,7 @@ h2 {
    margin-top: 128px;
    border-right: 40px double #5166ca;
    border-left: 40px double #5166ca;
-   padding-top: 20px;
+   padding: 20px;
 }
 
 .site-main h1 {
@@ -437,39 +445,6 @@ h2 {
 .bottom img {
     max-width: 30px;
 }
-
-
-/*
-@media screen and (min-width: 600px) and (max-width: 844px) {  
-
-    ul.nav-menu {
-	margin-top: 10px;
-    }
-
-    ul.nav-menu ul > li {
-        width: 108px;
-        padding: 0px 10px;
-	margin-left: -10px;
-	background: #fff;
-    }
-    li {
-        font-size: 1em;
-    }
-    
-    .btn {
-        padding: 20px 30vw;
-        font-size: 1.5rem;
-    }
-    
-    .bottom a:first-of-type {
-        margin-right: 30px;
-    }
-    
-    .bottom a:last-of-type {
-	   margin-left: 30px;
-    }
-}
-*/
 
 @media screen and (min-width: 845px) and (max-width: 990px) {
 	
