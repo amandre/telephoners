@@ -346,11 +346,18 @@ h2 {
     margin-bottom: -82px;
 }
 
+.wrapper > article {
+    margin-top: 128px;
+    border-right: 40px double #2a3b89;
+    border-left: 40px double #2a3b89;
+    padding: 20px;
+}
+
 .site-main {
    margin-top: 128px;
    border-right: 40px double #5166ca;
    border-left: 40px double #5166ca;
-   padding: 20px;
+   padding-top: 20px;
 }
 
 .site-main h1 {
@@ -635,4 +642,3 @@ h2 {
 	/* font-size: 1.1em; */
     }
 }
-
