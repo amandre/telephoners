@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+﻿<?php get_header(); ?>
 
 	<section class="slider">
 		<!-- TODO slider widget -->
@@ -8,7 +8,7 @@
 	<main id="main" role="main">
 	<?php
 		// posts query
-		$args = array( 'numberposts' => 3, 'order'=> 'DESC', 'orderby' => 'date' );
+		$args = array( 'posts_per_page' => 3, 'order'=> 'DESC', 'orderby' => 'date' );
 		query_posts( $args );
 		// pętla główna
 		if ( have_posts() ) :
