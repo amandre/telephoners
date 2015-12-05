@@ -362,6 +362,11 @@ h2 {
     margin: 20px;
 }
 
+.wrapper > article > .content img {
+    max-width: 100%;
+    height: auto;
+}
+
 .wrapper > article > .bottom {
    position: absolute;
    width: 100%;
