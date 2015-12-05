@@ -34,7 +34,7 @@
 			<p>Prowadzimy rekrutację ciągłą - można do nas dołączyć przez cały rok akademicki. Wystarczy podać swoje dane aktualnemu Zastępcy lub Przewodniczącemu Koła.</p>
 
 			<p>Na początku otrzymuje się status <strong>OBSERWATORA</strong>.</p>
-			<p>Aby sprawdzić jakie warunki należy spełnić aby otrzymać status <strong>CZŁONKA KOŁA</strong> - <a href="rekrutacja.html">KLIKNIJ</a>!</p>
+			<p>Aby sprawdzić jakie warunki należy spełnić aby otrzymać status <strong>CZŁONKA KOŁA</strong> - <a href="/index.php/o-nas/jak-zostac-czlonkiem-kola/">KLIKNIJ</a>!</p>
 		</article> 
 	</label>
 
