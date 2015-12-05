@@ -392,6 +392,10 @@ h2 {
    margin: 10px 50px;
 }
 
+.site-main > article > p > iframe {
+   max-width:100%;
+}
+
 .comments-area {
    background: #5166ca;
    padding: 10px;
@@ -442,7 +446,7 @@ h2 {
 .form-submit .submit {
    background: #5166ca;
    border: 6px solid #fff;
-   padding: 10px 30px;
+   padding: 5px;
    text-transform: uppercase;
    font-size: 1em;
    color: #fff;
@@ -458,6 +462,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     margin-top: 82px;
+    font-size: 0.8em;
 }
 
 .bottom p {
@@ -490,6 +495,12 @@ h2 {
 .bottom img:hover {
     opacity: 1;
     transition: 0.5s;
+}
+
+@media only screen and (min-width: 450px) {
+    .form-submit .submit {
+	padding: 10px 30px;
+    }
 }
 
 @media only screen and (min-width: 845px) and (max-width: 990px) {
@@ -555,7 +566,11 @@ h2 {
     .article_footer a {
         padding: 2px 30px;
     }
-    
+
+    .bottom {
+     	font-size:1em;
+    }
+
     .bottom a:first-of-type {
         margin-right: 30px;
     }
@@ -612,7 +627,11 @@ h2 {
      .slider {
 	   /*margin-top: 113px;*/
     }
-    
+
+    .bottom {
+     	font-size:1em;
+    }
+
     .bottom a:first-of-type {
         margin-right: 30px;
     }
@@ -649,6 +668,10 @@ h2 {
 	padding: 5px;
 	padding-top: 50px;
     }
+
+    .bottom {
+     	font-size:1em;
+    }
 }
 
 @media only screen and (min-width: 1164px) and (max-width:1249px)
@@ -674,6 +697,10 @@ h2 {
 	padding: 5px;
 	padding-top: 50px;
     }
+
+    .bottom {
+     	font-size:1em;
+    }
 }
 
 
@@ -697,5 +724,9 @@ h2 {
     ul.nav-menu > li > a {
 	padding: 5px;
 	padding-top: 50px;
+    }
+
+    .bottom {
+     	font-size:1em;
     }
 }
