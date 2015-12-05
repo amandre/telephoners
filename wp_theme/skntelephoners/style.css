@@ -105,7 +105,7 @@ input[type=checkbox] {
     display: -webkit-flex;
     display: -moz-flex; 
     flex-direction: row;
-    height: 115px;
+    height: 120px;
     width: 100%;
     align-items: center;
     justify-content: space-around;
