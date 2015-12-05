@@ -416,6 +416,10 @@ h2 {
    margin-top: 20px;
 }
 
+.btn:hover, .article_footer a:hover{
+    background: #5166ca;
+    transition: all 0.5s ease-in-out;
+}
 .comment-form-comment {
    display: flex;
    align-items: center;
@@ -475,7 +479,7 @@ h2 {
     max-width: 30px;
 }
 
-@media screen and (min-width: 845px) and (max-width: 990px) {
+@media only screen and (min-width: 845px) and (max-width: 990px) {
 	
     .slider {
 	margin-top: 81px;
@@ -548,7 +552,7 @@ h2 {
     }
 }
 
-@media screen and (min-width: 991px) {  
+@media only screen and (min-width: 991px) {  
     
     .slider {
 	margin-top: 81px;
@@ -605,7 +609,7 @@ h2 {
     }
 }
 
-@media screen and (min-width: 991px) and (max-width: 1163px)
+@media only screen and (min-width: 991px) and (max-width: 1163px)
 {
     .slider {
 	margin-top: 81px;
@@ -634,7 +638,7 @@ h2 {
     }
 }
 
-@media screen and (min-width: 1164px) and (max-width:1249px)
+@media only screen and (min-width: 1164px) and (max-width:1249px)
 {
     .slider {
 	margin-top: 81px;
@@ -642,6 +646,7 @@ h2 {
 
      ul.nav-menu > li {
 	width: 98px;
+	padding: 0px;
     }
 
     ul.nav-menu ul > li {
@@ -651,12 +656,21 @@ h2 {
 	margin-left: -5px;
 	font-size: 0.95em;
     }
+
+    ul.nav-menu > li > a {
+	padding: 5px;
+	padding-top: 50px;
+    }
 }
 
 
-@media screen and (min-width:1250px) {
+@media only screen and (min-width:1250px) {
     .slider {
 	margin-top: 81px;
+    }
+
+    ul.nav-menu > li {
+	padding: 0px;
     }
 
     ul.nav-menu ul > li{
@@ -665,5 +679,10 @@ h2 {
 	padding: 5px;
 	margin-left: -5px;
 	/* font-size: 1.1em; */
+    }
+
+    ul.nav-menu > li > a {
+	padding: 5px;
+	padding-top: 50px;
     }
 }
