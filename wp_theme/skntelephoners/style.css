@@ -575,6 +575,10 @@ h2 {
     .featured-articles article .content{
         display: block;
         padding: 30px;
+	box-sizing: border-box;
+	max-height: 257px;
+	margin-bottom: 20px;
+	overflow: hidden;
     }
     
     h2 {
