@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Templatka wyświetlająca posty na stronie głównej
  *
@@ -17,7 +17,7 @@
 				the_post_thumbnail();
 			endif;
 		?>
-		<p><?php the_content(); ?></p>
+		<p><?php the_excerpt(); ?></p>
 	</section>
 	<footer class="article_footer">
 		<a href="<?php the_permalink(); ?>">WIĘCEJ</a>
