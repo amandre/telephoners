@@ -68,7 +68,7 @@ img {
 }
 
 .toggle_nav, .toggle_nav:before, .toggle_nav:after {
-    height: 5px;
+    height: 6px;
     background: #5166ca;
     width: 40px;
     -webkit-appearance: button;
@@ -647,7 +647,7 @@ h2 {
 	margin-top: 81px;
     }
 
-    ul.nav-menu li:hover ul {
+    ul.nav-menu > li:hover ul {
         margin-top: 0px;
     }
     
@@ -679,6 +679,10 @@ h2 {
     .slider {
 	margin-top: 81px;
     }
+    
+    ul.nav-menu > li:hover ul {
+        margin-top: 0px;
+    }
 
      ul.nav-menu > li {
 	width: 98px;
@@ -707,6 +711,10 @@ h2 {
 @media only screen and (min-width:1250px) {
     .slider {
 	margin-top: 81px;
+    }
+    
+    ul.nav-menu > li:hover ul {
+        margin-top: 0px;
     }
 
     ul.nav-menu > li {
