@@ -24,8 +24,14 @@ ALL RIGHTS RESERVED, WSZYSTKIE PRAWA ZASTRZEZONE */
     font-weight: normal;
     font-style: normal;
 }
+    
+h1,h2,h3
+{
+    font-family: Oswald;
+}
 
-html {
+html 
+{
     font-family: "SSP", verdana, tahoma, arial, helvetica, sans-serif;
     margin:0;
     padding:0;
@@ -71,7 +77,7 @@ img {
     height: 6px;
     background: #5166ca;
     width: 40px;
-    -webkit-appearance: button;
+    /* -webkit-appearance: button; */
     cursor: pointer;
 }
 
@@ -308,7 +314,6 @@ h2 {
     font-size: 1em;
     text-transform: uppercase;
     margin-bottom: 0;
-    font-family: "Oswald";
 }
 
 .btn {
@@ -382,7 +387,6 @@ h2 {
 }
 
 .site-main h1 {
-   font-family: Oswald;
    color: #5166ca;
    font-size: 2em;
    text-align: center;
@@ -613,7 +617,7 @@ h2 {
 	margin-bottom: 20px;
 	overflow: hidden;
     }
-    
+
     h2 {
         font-size: 1.2em;
     }
