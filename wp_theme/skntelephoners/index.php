@@ -1,4 +1,4 @@
-﻿<?php get_header(); ?>
+<?php get_header(); ?>
 	<div class="slider-bg"></div>
 	<div class="container">
 	<section class="slider">
@@ -6,7 +6,7 @@
 		<p>WYKŁADY</p>
 	</section>
 	
-	<main id="main" role="main">
+	<main id="main" role="main" id="top">
 	<?php
 		// posts query
 		$args = array( 'posts_per_page' => 3, 'order'=> 'DESC', 'orderby' => 'date' );

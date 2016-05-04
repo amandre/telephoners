@@ -1,4 +1,4 @@
-﻿﻿<footer class="bottom">
+<footer class="bottom">
 	<div class="container">
 	<span>© 2015 Koło Naukowe Telephoners</span> 
 	<p>
@@ -7,8 +7,9 @@
 		<a href="http://www.kt.agh.edu.pl"><img src="<?php echo get_template_directory_uri(); ?>/images/kt_img.png" alt="logo KT.AGH.EDU.PL"/></a>
 		<a href="http://www.iet.agh.edu.pl"><img src="<?php echo get_template_directory_uri(); ?>/images/iet_img.png" alt="logo IET.AGH.EDU.PL"/></a> 
 		<a href="/index.php/kontakt/">KONTAKT</a>
+        	<a class="gotop" href="#top"><img src="<?php echo get_template_directory_uri(); ?>/images/arrowtop.png" alt="go_top"/></a>
 	</p>
-	
+
 	<?php
 	/*
 		if ( has_nav_menu( 'footer' ) ) {
