@@ -151,21 +151,22 @@ height: 120px;
 ul.nav-menu > li{
     float:left;
     width: 108px;
-    /*text-align: center;*/
     padding: 5px;
     font-size: 0.95em;
     /*padding-top: 50px;*/
 }
 
-ul.nav-menu > li > a {
+ul.nav-menu:not(.mob) > li > a {
     /* padding: 5px; */
     font-weight: 600;
     /* font-size: 0.9em; */
     padding-top: 50px;
-    /*text-align: center;*/
+    
     display: block;
 }
-
+ul.nav-menu:not(.mob) > li, ul.nav-menu:not(.mob) > li > a {
+    text-align: center;
+}
 ul.nav-menu a:link, ul.nav-menu a:visited {
     color: #000;
 }
