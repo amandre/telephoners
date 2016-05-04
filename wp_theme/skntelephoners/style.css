@@ -162,8 +162,8 @@ ul.nav-menu a:link, ul.nav-menu a:visited {
 }
 
 ul.nav-menu > li:hover{
-    transition: all 1s;
-    background: #5166ca;
+    transition: all 0.8s;
+    background: #394ca4; /* #5166ca; */
 }
 
 ul.nav-menu > li:hover > a {
@@ -200,13 +200,14 @@ ul.nav-menu > li > ul > li:hover a {
 ul.mob {
     display: none;
     position: absolute;
-    top: 115px; /* 128px; */
+    top: 111px; /* 128px; */
     right: 0px;
     /* left: 0px; */
     background: #5166ca;
     width: 30%; /* 100%; */
     text-align: center;
     font-size: 0.8em;
+    text-transform: uppercase;
 }
 
 ul.mob > li {
