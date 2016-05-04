@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* Author: ANDRZEJ AMGHAR 2015
+/* Author: ANDRZEJ AMGHAR 2015-2016
 ALL RIGHTS RESERVED, WSZYSTKIE PRAWA ZASTRZEZONE */
 
 
@@ -66,6 +66,11 @@ img {
         max-height: 200px;
         max-width: 240px;
 	margin: 15px 0 0 10px;
+}
+
+.gotop {
+    position: absolute;
+    bottom: 100px;
 }
 
 .toggle_nav {
@@ -605,7 +610,7 @@ h2 {
         margin-right: 30px;
     }
     
-    .bottom a:last-of-type {
+    .bottom a:nth-of-type(5) {
 	   margin-left: 30px;
     }
 }
@@ -665,7 +670,7 @@ h2 {
         margin-right: 30px;
     }
     
-    .bottom a:last-of-type {
+    .bottom a:nth-of-type(5) {
 	   margin-left: 30px;
     }
 }
