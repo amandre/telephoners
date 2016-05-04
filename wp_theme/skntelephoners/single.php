@@ -10,6 +10,7 @@
 get_header(); ?>
 
 <article id="post-<?php the_ID(); ?>">
+	<div class="container">
 	<header class="article_header">
 		<?php the_title( '<h2>','</h2>' ); ?>
 		<p>Przez <?php the_author(); ?> | <?php the_time('F jS, Y') ?></p>
@@ -37,6 +38,7 @@ get_header(); ?>
 	<!-- <footer class="article_footer">
 		<a href="<?php the_permalink(); ?>">WIĘCEJ</a>
 	</footer> -->
+	
 </article>
 
 

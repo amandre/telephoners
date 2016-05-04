@@ -44,12 +44,14 @@
 	<section class="wrapper">
 
 		<header class="header">
+			<div class="container">
 			<a id="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 				<img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo/logo_final.svg" alt="<?php bloginfo( 'name' ); ?>"/>
 			</a>
 			<nav class="header-menu">
 				<?php wp_nav_menu( array( 'theme_location' => 'primary-menu', 'menu_class' => 'nav-menu', 'menu_id' => 'primary-menu' ) ); ?>
 			</nav>
+			</div>
 		</header>
 		
 

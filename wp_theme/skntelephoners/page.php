@@ -5,7 +5,7 @@
 **/
 get_header(); ?>
 
-
+<div class="container">
 	<main id="main" class="site-main" role="main">
 
 	<?php
@@ -26,5 +26,5 @@ get_header(); ?>
 
 	</main><!-- .site-main -->
 
-
+</div>
 <?php get_footer(); ?>

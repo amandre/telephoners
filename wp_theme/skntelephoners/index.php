@@ -1,5 +1,6 @@
 ﻿<?php get_header(); ?>
-
+	<div class="slider-bg"></div>
+	<div class="container">
 	<section class="slider">
 		<!-- TODO slider widget -->
 		<p>WYKŁADY</p>
@@ -37,5 +38,5 @@
 			<p>Aby sprawdzić jakie warunki należy spełnić aby otrzymać status <strong>CZŁONKA KOŁA</strong> - <a href="/index.php/o-nas/jak-zostac-czlonkiem-kola/">KLIKNIJ</a>!</p>
 		</article> 
 	</label>
-
+	</div>
 <?php get_footer(); ?>

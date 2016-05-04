@@ -1,4 +1,5 @@
 <article <?php post_class( 'single-post' ); ?>>
+	<div class="container">
 	<header>
 		<h1><?php single_post_title(); ?></h1>
 	</header>
@@ -13,5 +14,5 @@
 			comments_template();
 		}*/
 	?>
-
+	</div>
 </article>

@@ -1,4 +1,5 @@
 ﻿﻿<footer class="bottom">
+	<div class="container">
 	<span>© 2015 Koło Naukowe Telephoners</span> 
 	<p>
 <a href="https://www.facebook.com/telephoners/?ref=ts&fref=ts"><img src="<?php echo get_template_directory_uri(); ?>/images/fb.png" alt="logo AGH.EDU.PL"/></a>
@@ -23,7 +24,7 @@
 			echo '<!-- .footer__menu -->';
 		}
 	*/?>
-		
+		</div>
 </footer>
 
 <?php wp_footer(); ?>
