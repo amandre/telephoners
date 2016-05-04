@@ -1,8 +1,7 @@
 /* Author: ANDRZEJ AMGHAR 2015
 ALL RIGHTS RESERVED, WSZYSTKIE PRAWA ZASTRZEZONE */
 var toggleBtn = document.createElement('div');
-toggleBtn.className='toggle_nav'; 
-toggleBtn.style.backgroundImage="url('menu.png)";
+toggleBtn.className='toggle_nav';
 
 var rwdMenu = function() {
     var nav = document.getElementById('primary-menu');
